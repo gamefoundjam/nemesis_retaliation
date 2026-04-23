@@ -531,72 +531,7 @@ Awaken Realms Team</pre></label></div> <div class="gfu-grid gfu-grid--small"><la
         </a> and <a href="https://policies.google.com/terms" target="" rel="" format-key="1">
             Terms of Service
         </a> apply.</span></div></div></footer>
-<script>App.registerComponent('v-7e1949c2-d2ad-4364-9509-989fdba3e08e', 'App.Components.Footer', App.Components.Footer, {"props":null,"class":null});</script>
 
-    <!---->
-<script>App.registerComponent('v-568266a9-8ac6-4f7a-a10b-537beceaa4d7', 'App.Components.Carts.GoToCheckoutModal', App.Components.Carts.GoToCheckoutModal, {"props":null,"class":null});</script>
-
-<!---->
-<script>App.registerComponent('v-bba82abc-cbff-4e75-ac60-75496c104303', 'App.Components.Users.UserLoginModal', App.Components.Users.UserLoginModal, {"props":null,"class":null});</script>
-
-<!---->
-<script>App.registerComponent('v-8bb4501d-8fd5-498a-93ba-8c49a7add55c', 'App.Components.Users.UserFollowSettingsModal', App.Components.Users.UserFollowSettingsModal, {"props":null,"class":null});</script>
-
-<!---->
-<script>App.registerComponent('v-8bd64a9c-37eb-42e2-b052-1d1204736e13', 'App.Components.Carts.AddProductToCartModalManager', App.Components.Carts.AddProductToCartModalManager, {"props":null,"class":null});</script>
-
-<!---->
-<script>App.registerComponent('v-e9e9a94f-4ff4-4c2d-af10-5d06b8e33943', 'App.Components.Localization.LanguageSelectorModal', App.Components.Localization.LanguageSelectorModal, {"props":null,"class":null});</script>
-
-<!---->
-<script>App.registerComponent('v-3106d5ce-6f31-4d1d-a2f7-6bf8a3ece89b', 'App.Components.PushNotificationModal', App.Components.PushNotificationModal, {"props":null,"class":null});</script>
-
-<!---->
-<script>App.registerComponent('v-d239561d-33b3-4caa-9168-993bc35998f1', 'App.Components.Users.UnauthenticatedUserFollowProjectModal', App.Components.Users.UnauthenticatedUserFollowProjectModal, {"props":null,"class":null});</script>
-
-    
-</div><div id="modals"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></div>
-<!---->
-<script>App.registerComponent('v-a6d97655-1451-4648-aba6-538c533e1d01', 'App.Components.ServerNotificationHandler', App.Components.ServerNotificationHandler, {"props":{"type":0,"message":null,"title":null,"qa":null},"class":null});</script>
-
-<!---->
-<script>App.registerComponent('v-9d2c2251-93a7-4654-b91b-d61a1faa633a', 'App.Components.ClientAnalyticsEventHandler', App.Components.ClientAnalyticsEventHandler, {"props":{"eventType":null,"projectName":null,"projectID":0,"eventSource":null},"class":null});</script>
-
-<div class="gfu-floating-message gfu-floating-notification-box gfu-floating-notification-box--fixed _pa-0 _ma-0 _bgc--transparent _bxsh--none gfu-floating-notification-box--left"><!----> <!----></div>
-<script>App.registerComponent('v-fce10a65-7c63-41b8-b327-a4e38c9adf03', 'App.Components.FloatingMessagesWrapper', App.Components.FloatingMessagesWrapper, {"props":{"position":"left","isCookieBannerVisible":false,"privacySettingsUrl":"/en/info/cookie-settings"},"class":null});</script>
-
-
-<script>
-    (function() {
-        const headerElement = document.getElementById('js-main-header');
-        App.Plugins.MagicAnchor.baseOffset = headerElement.clientHeight * -1;
-
-        const stickyClasses = ['is-sticky', 'is-sticky-m']
-        const pwaNavBar = document.querySelector('.js-top-navigation-bar');
-        if(pwaNavBar && stickyClasses.some(c => headerElement.classList.contains(c)))
-        {
-            const offset = pwaNavBar?.offsetHeight || 0;
-            headerElement.style.top = `${offset}px`;
-        }
-
-        window.addEventListener('resize', App.Utils.debounce(function() {
-            App.Plugins.MagicAnchor.baseOffset = headerElement.clientHeight * -1;
-        }, 100));
-    })(); 
-</script>
-<script>
-    (function () {
-        if (!window.BigInt && document.cookie.replace(/(?:(?:^|.*;\s*)DismissUnsupportedBrowserWarning\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
-            document.addEventListener('DOMContentLoaded', function() {
-                var div = document.createElement('div');
-                div.innerHTML = "<div class='gfu-floating-notification-box gfu-floating-notification-box--fixed' id='gfu-component-unsupported-browser-box'><div class='gfu-grid'><div class='gfu-grid__cell gfu-1of1 gfu-3of4--l _mb-1 _mt-1'><strong>Sorry, your browser is not supported!</strong> For your own safety please update to the latest version. Some pages on our site might not work for you if you dismiss this message.</div><div class='gfu-grid__cell gfu-1of1 gfu-1of4--l _tar _mb-1 _mt-1'><button type='button' class='gfu-btn gfu-btn--accent' onclick='document.cookie=\"DismissUnsupportedBrowserWarning=true; expires=Fri, 31 Dec 9999 23:59:59 GMT\"; var box = document.querySelector(\"#gfu-component-unsupported-browser-box\"); box.classList.add(\"is-hidden\")'>Dismiss</button></div></div></div>";
-                document.body.appendChild(div);
-            });
-        }
-    })();
-</script>
-<!---->
-<script>App.registerComponent('v-289f3b7d-37e5-4cfa-8b1f-ae0cc9784937', 'App.Components.LoadingIndicator', App.Components.LoadingIndicator, {"props":null,"class":null});</script>
 
 <!-- developer-machine-name: WO0LDWK0000BY -->
 <!-- developer-release-number: Release-4834 -->
